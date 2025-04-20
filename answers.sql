@@ -26,7 +26,7 @@ USE salesdb;
 DROP TABLE orderdetails;
 DROP TABLE orders;
 
--- Create table Orders
+-- Create table Orders and OrderItems
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
     CustomerName VARCHAR(50)
